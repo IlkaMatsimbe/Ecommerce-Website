@@ -1,0 +1,3 @@
+.sliderItem:nth-child(2) {
+  background-color: yellow; } - child ele herda um determinado elemento pela sua posicao, 
+  dando a cor yellow a esse elemento da posicao (1)

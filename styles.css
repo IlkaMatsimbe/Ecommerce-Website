@@ -72,13 +72,16 @@ color: rgb(99, 97, 97);
 
 .slider {
   background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
-  /*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);*/
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  overflow: hidden;
+
 }
 
 
 .sliderWrapper {
   display: flex;
   width: 500vw;
+  transition: all 0.70s ease-in-out;
 }
 
 
@@ -184,5 +187,87 @@ color: rgb(99, 97, 97);
 .sliderItem:nth-child(5) .sliderPrice {
   color: rgb(179, 53, 31);
 }
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.feature {
+display: flex;
+align-items: center;
+text-align: center;
+flex-direction: column;
+
+}
+
+.featureIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.featureTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.featureDescription {
+  color: gray;
+  width: 50%;
+  height: 100px;
+}
+
+.product {
+  height: 100vh;
+  background-color: whitesmoke;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+.productImg {
+  width: 40%;
+  padding: 10px;
+}
+
+.productDetails {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 40%;
+  padding:50px;
+}
+
+.productTitle {
+  font-size: 65px;
+  font-weight: 900;
+}
+
+.productDescription {
+  font-style: 24px;
+  color: gray;
+}
+
+.color {
+width: 32px;
+height: 32px;
+border-radius: 5px;
+background-color: black;
+margin-right: 10px;
+cursor: pointer;
+}
+
+
+.color,.sizes {
+  display: flex;
+}
+
+.productButton {
+  margin-top: 10px;
+  padding: 5px;
+}
+
 
 

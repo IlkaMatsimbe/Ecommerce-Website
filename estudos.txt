@@ -1,3 +1,14 @@
 .sliderItem:nth-child(2) {
   background-color: yellow; } - child ele herda um determinado elemento pela sua posicao, 
   dando a cor yellow a esse elemento da posicao (1)
+
+
+//Essa condicao ForEach descrita abaixo, serve para percorrer por cada item, 
+com adicao de um evento que faz com que o usuario possa clicar em cada item 
+e assim ao cliclar, ele ira direcionar na devida pagina
+    
+    menuItems.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    wrapper.style.transform = `translateX(${-100 *index}vw)`;
+  });
+});

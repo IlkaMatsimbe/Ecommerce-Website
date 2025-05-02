@@ -12,3 +12,10 @@ e assim ao cliclar, ele ira direcionar na devida pagina
     wrapper.style.transform = `translateX(${-100 *index}vw)`;
   });
 });
+
+
+
+https://cssgenerator.org/box-shadow-css-generator.html
+
+
+1:05;27

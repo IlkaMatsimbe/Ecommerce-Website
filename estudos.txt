@@ -17,8 +17,21 @@ e assim ao cliclar, ele ira direcionar na devida pagina
 });
 
 
+.galleryItem {
+flex: 1;} - isso faz com que as imagens da galeria 
+tenham o mesmo espaco disponivel no container.
+
+top: unset;     -   é uma propriedade CSS que remove qualquer valor anterior 
+definido para top, revertendo-o ao comportamento padrão do navegador ou herdado.
+
 
 https://cssgenerator.org/box-shadow-css-generator.html
 
 
+<<<<<<< HEAD
 1:05;27
+=======
+
+
+1:05;27
+>>>>>>> 056fae3 (Adicionei o codigo de responsividade no sistema)

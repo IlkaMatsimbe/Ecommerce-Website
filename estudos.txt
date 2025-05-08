@@ -28,10 +28,4 @@ definido para top, revertendo-o ao comportamento padrão do navegador ou herdado
 https://cssgenerator.org/box-shadow-css-generator.html
 
 
-<<<<<<< HEAD
-1:05;27
-=======
-
-
-1:05;27
->>>>>>> 056fae3 (Adicionei o codigo de responsividade no sistema)
+Para hospedar podemos acessar o HOSTINGER e comprar a nossa hospedagem.

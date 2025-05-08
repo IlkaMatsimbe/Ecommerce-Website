@@ -101,27 +101,24 @@ const currentProductSizes = document.querySelectorAll(".size");
 // e assim ao cliclar, ele ira direcionar na devida pagina
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
-    wrapper.style.transform = `translateX(${-100 *index}vw)`;
+    // Mover o carrossel
+    wrapper.style.transform = `translateX(${-100 * index}vw)`;
 
-  });
-});
+    // Atualizar produto selecionado
+    choosenProduct = products[index];
 
-
-    //change the choosen poduct
-    choosenProduct = products [index]
-
-    //change texts of currentProduct
+    // Atualizar texto e imagem
     currentProductTitle.textContent = choosenProduct.title;
     currentProductPrice.textContent = "$" + choosenProduct.price;
     currentProductImg.src = choosenProduct.colors[0].img;
 
-
-    //assign new colors
-    currentProductColors.forEach((color, index)=> {
-      color.style.backgroundColor = choosenProduct.colors[index].code;
+    // Atualizar cores
+    currentProductColors.forEach((color, i) => {
+      color.style.backgroundColor = choosenProduct.colors[i].code;
     });
   });
 });
+
 
 //Funcao para mudar de cor do produto a cada click no botao de cores
 currentProductColors.forEach((color, index)=>{
